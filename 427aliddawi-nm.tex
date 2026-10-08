@@ -1,0 +1,80 @@
+\documentclass[10pt]{letter}
+
+
+% to sign: gpg --local-user 0x14D5ED104DB3F0CC --clearsign --output==427isharma-senate-signed.pdf --not-dash-escaped 427isharma-senate.pdf
+% to verify: gpg --verify 427isharma-signed.pdf
+
+\usepackage{mnhsletter}
+%\usepackage{siunitx}
+
+\newcommand\firstname{Alex}
+\newcommand\lastname{Liddawi}
+\newcommand\subject{he}
+\newcommand\object{him}
+\newcommand\possessive{his}
+\newcommand\reflexive{himself}
+\newcommand\adjective{happy}
+
+\title{Recommendation for \firstname\ \lastname}
+\author{Dennis Evangelista}
+% For letters of recommendation, MBS asks that you do not date your letter
+\date{} 
+%\date{\today}
+%\usepackage[american,inputamerican]{isodate}
+%\date{\printdate{6/17/2021}}
+
+% This also sets the PDF metadata so it is searchable in like Spotlight etc. 
+\hypersetup{
+pdfauthor={Dennis Evangelista},
+pdftitle={Recommendation for \firstname\ \lastname},
+pdfkeywords={\firstname\ \lastname, Manalapan High School, MNHS, Science and Engineering, S\&E, recommendation, National Merit}}
+
+% for letter closing use this if you wish to sign hardcopy
+\usepackage{designature}
+\digitalsignature{\includesignature}
+\name{Dennis J.~Evangelista, Ph.D.}
+
+\begin{document}
+
+\begin{letter}{% recipient address here (optional, for future envelope use)
+%Research Science Institute\\
+%Center for Excellence in Education\\
+%7918 Jones Branch Drive, Suite 700\\
+%McLean, VA 22102
+}
+
+% opening here
+\opening{Recommendation for {\scshape\firstname\ \lastname}:}
+%\raggedright % if you like this sort of thing
+%\setlength{\parindent}{15pt} % if you like this sort of thing
+
+I am \adjective\ to recommend \firstname\ \lastname\ for the National Merit Scholarship Program.  I am \firstname's teacher for AP Physics and for the honors engineering research capstone course in the Science \& Engineering program at Manalapan High School. 
+
+Our program is a highly rigorous STEM program. In my class, \firstname\ has published two peer-reviewed scientific journal articles.  \firstname\ was also a key member of our $F=ma$ and New Jersey State Science League physics teams. \firstname\ is an engaged student who is deserving of further STEM opportunities; \subject\ will take the lead and be a worthy advocate and ambassador for STEM engagement.  An example Alex demonstrated in my class was his leadership during the class Mars mission project. Alex helped lead last year’s Mars mission project as the head of the trajectory department and was the main person in charge of calculations and communicating with the other sub-teams. Alex helped coordinate the final slideshow in front of visitors from English and freshman algebra classes, making advanced physics principles accessible to them.  Alex is also a leader in our new Flight Club, which will teach students to make quadrotors and wings as a vehicle for learning engineering. 
+
+Alex always participates in class discussions by always demonstrating a significant engagement/interest in the subject material and frequently asks questions, including those beyond the standard AP Physics curriculum. I can rely on him to ask insightful questions and to engage with hard problems where other students may try to give up. 
+
+Alex is a smart, hard working kid that really knows a lot about everything. His peers describe him as a genius. On a personal note, I know that Alex has persisted in his studies despite major personal loss, demonstrating his resilience and dedication. Please give him your highest consideration in the National Merit Scholarship Program. 
+
+
+% closing here
+\closing{Very respectfully,}
+%\noclosing
+
+%\ps{post script here}
+%\encl{enclosure here}
+\end{letter}
+
+\end{document}
+
+
+%Hope all is well, attached below is my list of recommendation letter key bullet points for my National Merit Scholarship application:
+%
+%
+%Helped lead last year’s Mars mission project as the head of the trajectory department (was the main person in charge of calculations and communicating with the other groups) and helped coordinate the final slideshow. 
+%
+%Actively participates in class discussions by always demonstrating a significant engagement/interest in the subject material and frequently asks questions, including those beyond the standard AP Physics curriculum
+%
+%Member for the physics teams of the F=ma competition and NJ Science League in addition to being a member of the Flight Club 
+%
+%Multiple peer-reviewed articles published in JS&E
